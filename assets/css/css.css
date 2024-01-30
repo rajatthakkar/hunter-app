@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish&family=PT+Sans:ital,wght@1,700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("../img/sup-wall.jpg");
+    background-size: cover;
+  
+}
+body::-webkit-scrollbar {
+    display: fixed;
+}
+
+.nav-bar{
+ 
+     display: flex;
+     justify-content: space-between; 
+     padding: 1rem 1rem 1rem 1rem;
+     background-color: brown;
+    
+}
+
+ #fav-link{
+    
+    text-decoration: none;
+    color: black;
+     
+
+ }
+
+ #fav-link  :hover{
+    
+    text-decoration: none;
+    color:white;
+     
+
+ }
+ .main-section { 
+    height: 100vh;
+    display: fxed;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: black; */
+    height: 50vh;
+    padding: 1rem 1rem 1rem 1rem;
+}
+
+.section1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#search-bar-section {
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#search-bar-section input {
+    width: 70%;
+    height: 5vh;
+    border-radius: 20px;
+    color: rgb(216, 204, 247);
+    /* padding: 1%; */
+    border: white;
+    font-size: 1.1rem;
+    background: rgb(10, 16, 34);
+    background: linear-gradient(90deg, rgba(0, 4, 15, 0.832) 0%, rgba(0, 0, 3, 0.718) 50%, rgb(1, 0, 15) 100%);
+}
+
+input::placeholder {
+    color: aliceblue;
+
+}
+
+#displayHeroSearchResults {
+    border: none;
+    height: 100%;
+    overflow: scroll;
+    width: 100%;
+    
+    color:#f5dada;
+    
+}
+
+.results::-webkit-scrollbar {
+    display: none;
+    
+    font-display: white;
+}
+
+#search-form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#superhero-list {
+    /* background-color: aqua; */
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    overflow: scroll;
+    padding: 1%;
+    justify-content: space-evenly;
+}
+
+.hero-list::-webkit-scrollbar {
+    display: none;
+}
+
+.display-cards {
+    /* background-color: black; */
+    border: 1px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    height: 60vh;
+    transition-duration: 1s;
+    margin-top: 2%;
+}
+.display-cards:hover{
+    box-shadow: 0px 7px 50px 10px  rgb(0, 0, 5);
+    width: 25%;
+    height: 70vh;
+}
+
+#superhero {
+    /* background-color: blue; */
+    height: 90%;
+}
+
+#info {
+    /* background-color: green; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    height: 100%;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    background: rgb(201, 211, 241);
+    background: linear-gradient(90deg, rgba(201, 211, 241, 0.8323704481792717) 0%, rgba(144, 148, 231, 0.7175245098039216) 50%, rgba(163, 162, 232, 0.5830707282913166) 100%);
+}
+
+#buttons {
+    font-family: 'PT Sans', sans-serif;
+    background: rgb(201, 211, 241);
+    background: linear-gradient(90deg, rgba(201, 211, 241, 0.8323704481792717) 0%, rgba(144, 148, 231, 0.7175245098039216) 50%, rgba(163, 162, 232, 0.5830707282913166) 100%);
+    /* border: 2px solid red; */
+    height: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1%;
+}
+
+#img-cont {
+    width: 100%;
+    /* background-color: black; */
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#img-cont img {
+    width: 95%;
+    height: 95%;
+}
+
+#buttons button {
+   height: 100%;
+    width: 80%;
+    border-radius: 20px;
+    border: none;
+
+    background: rgb(255,134,142);
+background: linear-gradient(90deg, rgba(255,134,142,0.8323704481792717) 0%, rgba(240, 77, 167, 0.718) 50%, rgba(255, 75, 231, 0.583) 100%);
+}
+
+#buttons button:hover{
+    box-shadow: 0px 2px 5px 0px  rgb(250, 3, 3);
+}

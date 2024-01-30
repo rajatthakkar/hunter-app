@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/favCss.css">
+    <title>Document</title>
+</head>
+<body>
+
+  <nav class="nav-bar">
+   
+    <div>
+      <h4> Supper HeroHunter Appa</h4>
+    </div>
+     <div>
+      <a  href="../index.html" id="home"><h4>Home</h4></a>
+     </div>
+  </nav>
+  <section class="fav-section1">
+    <div class="text-section" id="title">
+      <h1 class="head">My Favourite Heroes!</h1>
+    </div>
+
+    <div class="container-data">
+      <!-- container where superohero will show according to favourites -->
+      <div class="super-hero-container" id="superhero-list">
+        <template id="canvas">
+          <div  id="superhero-hunter">
+            <!-- basic info -->
+            <div id="information">
+              <div id="img-cont">img</div>
+              <div id="name">Name -</div>
+              <div id="id">ID</div>
+              <div id="comic">Comics</div>
+              <div id="series">series</div>
+              <div id="stories">stories</div>
+              <div c id="buttons">
+                <!-- button to remove from favourites -->
+                <button class="btn btn-outline-primary btn-sm" id="fav">
+                  Remove
+                </button>
+                <!-- button for directing to about page -->
+                <button class="btn btn-primary btn-sm" id="learn-more">
+                  view more
+                </button>
+              </div>
+            </div>
+            <br />
+            <br />
+          </div>
+        </template>
+      </div>
+    </div>
+    
+  </section>
+  <script src="./assets/js/fav.js"></script>
+</body>
+</html>

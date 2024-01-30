@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="assets/css/css.css">
+    <title>Document</title>
+</head>
+<body>
+  <div class="main-section">
+    <nav class="nav-bar">
+   
+      <div>
+        <h4> Supper HeroHunter Appa</h4>
+      </div>
+       <div>
+        <a  href="favouritesHero.html" id="fav-link"><h4>Favourite</h4></a>
+       </div>
+    </nav>
+
+    <div class="section1">
+        <h1>Search Superheros</h1>
+    </div>
+
+    <div id="search-bar-section">
+
+        <form method="get" id="search-form">
+            <input type="search" name="searchHero" id="search-string" placeholder="Search your favourite Super Hero here">
+        </form>
+
+    </div>
+
+    <div id="displayHeroSearchResults" class="results">
+        <h2 id="querySection"></h2>
+        <div id="superhero-list" class="hero-list">
+
+            <template id="canvas" class="canv">
+                <div class="display-cards" id="c">
+
+
+                    <div id="superhero">
+                        <div id="information">
+                            <div id="img-cont">img</div>
+                            <div id="name">Name </div>
+                            <div id="id">ID</div>
+                            <div id="comic">Comics</div>
+                            <div id="series">series</div>
+                            <div id="stories">stories</div>
+
+                            
+                        </div>
+                    </div>
+
+                    <!-- <button id="fav" onclick="addFunction(this)">
+                                Add to Favourite
+                            </button>
+
+                            
+                            <button id="learn-more">
+                                more details
+                            </button> -->
+                    <div id="buttons">
+                        <button id="fav">
+                            Add to Favourite
+                        </button>
+
+                       
+                        <button id="learn-more">
+                            more details
+                        </button>
+                    </div>
+                </div>
+            </template>
+        </div>
+
+    </div>
+</div>
+</div>
+
+
+  <!-- <main>
+   <section>
+    <form>
+      <div id="search-div">
+        <textarea placeholder="Search Here for Find Your Super Hero" type="Search" class="search-bar" maxlength="2048" name="q" id="search-area" cols="30" rows="1" autocapitalize="off" title="Search" ></textarea>
+      </div>
+        <div id="button-div">
+        <Button id="search-button"> <h5>Find your Supper Hero!!</h5> </Button>
+        </div>
+    </form>
+   </section>
+  </main>    -->
+  <script src="./assets/js/index.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/md5.js"></script>
+
+</body>
+</html>
